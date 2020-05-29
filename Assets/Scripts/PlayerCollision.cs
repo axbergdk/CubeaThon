@@ -11,6 +11,11 @@ public class PlayerCollision : MonoBehaviour
             FindObjectOfType<GameManager>().EndGame();
             FindObjectOfType<Score>().stopScore = true;
 
-        }
+        }        
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+       
     }
 }
