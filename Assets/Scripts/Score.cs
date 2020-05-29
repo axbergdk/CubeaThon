@@ -10,6 +10,11 @@ public class Score : MonoBehaviour
     public bool stopScore = false;
     private int gems = 0;
 
+
+    private void Start()
+    {
+        stopScore = false;
+    }
     // Update is called once per frame
     void Update()
     {
